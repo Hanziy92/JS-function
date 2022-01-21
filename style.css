@@ -1,0 +1,96 @@
+.bg {
+  margin-top: 388px;
+  position: relative;
+  height: 780px;
+  width: 1168px;
+  background: #F4F6F8;
+  z-index: 1;
+  border: 1px solid #999999;
+  overflow: hidden;
+}
+
+.bg .bg__img {
+  position: absolute;
+  width: 432px;
+  height: 1085px;
+  left: 785px;
+  top: -142px;
+  z-index: 2;
+  background: #EEF1F7;
+  transform: rotate(15deg);
+  vertical-align: middle;
+ 
+}
+
+.bg .bg__form {
+  position: absolute;
+  width: 480px;
+  height: 552px;
+  left: 344px;
+  top: 114px;
+  background-color: #fff;
+  border-radius: 62px;  
+  z-index: 3;
+}
+
+h5 {
+  margin-top: 62px;
+  margin-bottom: 0px;
+  margin-left: 48px;
+}
+h1 {
+  width: 288px;
+  height: 28px;
+  margin-left: 48px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+form .oneInput {
+  margin-top: 52px;
+  margin-left: 48px;
+}
+
+form .twoInput {
+  margin-top: 33px;
+  margin-left: 48px;
+}
+input {
+  width: 386px;
+  height: 47px;
+  border-radius: 25px;
+  
+  }
+  
+
+
+
+  
+input::after {
+  background-image: url(/img/free-icon-envelope-25236.svg);
+
+}
+button {
+  margin-top: 46px;
+  margin-left: 48px;
+  width: 386px;
+  height: 47px;
+  border-radius: 25px;
+  
+}
+.text_btn {
+  color: #000;
+  background: linear-gradient(81deg, rgba(255,255,255,1) 0%, rgba(255,250,193,1) 28%, rgba(255,247,0,1) 73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25 px;
+}
+p {
+  margin-top: 20px;
+  margin-left: 48px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
